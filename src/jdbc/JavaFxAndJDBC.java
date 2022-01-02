@@ -77,6 +77,16 @@ public class JavaFxAndJDBC extends Application {
 		
 		statement = connection.createStatement();
 		
+		
+		DatabaseMetaData metadata= connection.getMetaData();
+		
+		System.out.println("URL de la base de datos: "+ metadata.getURL());
+		
+		System.out.println("Product version "+ metadata.getDatabaseProductVersion());
+		
+		System.out.println("maximo numero de columnas: "+metadata.getMaxColumnsInTable());
+		
+		System.out.println("soportta batch "+metadata.supportsBatchUpdates());
 	}
 	
 	public static void main(String [] args) {
