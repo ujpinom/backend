@@ -12,6 +12,22 @@
         <servlet-name>TimeForm</servlet-name>
         <servlet-class>Servelets.TimeForm</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SimpleRegistration</servlet-name>
+        <servlet-class>Servelets.SimpleRegistration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Servelets.Registration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistrationWithCookie</servlet-name>
+        <servlet-class>Servelets.RegistrationWithCookie</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistrationWithHttpSession</servlet-name>
+        <servlet-class>Servelets.RegistrationWithHttpSession</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/FirstServlet</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>TimeForm</servlet-name>
         <url-pattern>/TimeForm</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SimpleRegistration</servlet-name>
+        <url-pattern>/SimpleRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistrationWithCookie</servlet-name>
+        <url-pattern>/RegistrationWithCookie</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistrationWithHttpSession</servlet-name>
+        <url-pattern>/RegistrationWithHttpSession</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

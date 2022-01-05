@@ -18,6 +18,12 @@
     
     <dependencies>
         <dependency>
+            <groupId>drivers</groupId>
+            <artifactId>drivers</artifactId>
+            <version>1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>${jakartaee}</version>

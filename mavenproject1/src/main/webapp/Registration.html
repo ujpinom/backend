@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registration Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <p style="color: #ff00ff; font-family: fantasy; ">Por favor ingrese los siguientes datos para registrarse</p>
+        <hr><!-- comment -->
+        <form action="Registration" method="get">
+        <label for="firstName">First Name</label>
+        <label style="color: red">*</label>
+        <input type="text" name="firstName" id="firstName" />
+        <label for="lastName">last Name</label>
+        <label style="color: red">*</label>
+        <input type="text" name="lastName" id="lastName" />
+        <label for="mi">MI</label>
+        <input type="text" name="mi" id="mi" />
+        <br>
+        <br>
+         <label for="telefono">Telefono</label>
+         <label style="color: red">*</label>
+        <input type="text" name="telefono" id="telefono" />
+         <label for="email">Email</label>
+         <label style="color: red">*</label>
+        <input type="text" name="email" id="email" />
+        <p>
+            
+            <label for="street">Street</label>
+            <label style="color: red">*</label>
+            <input type="text" name="street" id="street" size="50"/>
+            
+        </p>
+          <p>
+            
+            <label for="city">Street</label>
+            <label style="color: red">*</label>
+            <input type="text" name="city" id="city" />
+            
+            <label>State</label>
+            <select id="id" size="1" name="state">
+                <option value="GA">Georgia-GA</option>
+                <option value="OK">Oklahoma-OK</option>
+                <option value="IN">Indiana-IN</option>
+            </select>&nbsp;
+            
+            <label for="zip">Zip</label>
+            <input type="text" name="zip" id="zip" />
+            
+        </p>
+        
+        <button type="submit" style="background: #66ff66">Enviar</button>
+        <button type="reset" style="background: #ff6699">Reset</button>
+       </form>
+        
+        <br><!-- comment -->
+        <p><font color = "#FF0000">* required fields</font></p>
+    
+    </body>
+</html>
